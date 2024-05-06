@@ -1,6 +1,7 @@
 const mongooes = require('mongoose');
-
-const mongooesURL = "mongodb://127.0.0.1:27017/hotels"
+require('dotenv').config();
+// const mongooesURL = process.env.MONGO_DB_URL_LOCAL;
+const mongooesURL=process.env.MONGO_DB_URL;
 
 
 const db = async ()=>{
