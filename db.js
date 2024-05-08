@@ -1,7 +1,7 @@
 const mongooes = require('mongoose');
 require('dotenv').config();
-// const mongooesURL = process.env.MONGO_DB_URL_LOCAL;
-const mongooesURL=process.env.MONGO_DB_URL;
+const mongooesURL = process.env.MONGO_DB_URL_LOCAL;
+// const mongooesURL=process.env.MONGO_DB_URL;
 
 
 const db = async ()=>{
